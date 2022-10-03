@@ -7,12 +7,13 @@ import Player from './Components/Player/Player';
 import Video from './Components/Video/Video';
 
 
+
+
+
 function App() {
-
-
-
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
+
       <Header titulo="Music Web-app"/>
       <ul className='nav bg-dark ' >
         <li><Link className='nav-link' to="Player" alt="">Player</Link></li>
